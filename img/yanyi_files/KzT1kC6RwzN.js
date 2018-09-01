@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["7VtAC"]); }
+
+__d("RelayRTIGraphQLSubscriptionTopicProvider",["FBLogger"],(function(a,b,c,d,e,f){"use strict";__p&&__p();function a(){this.$1={}}a.prototype.registerProvider=function(a,c){if(Object.prototype.hasOwnProperty.call(this.$1,a)){b("FBLogger")("relay").mustfix("Multiple RTIGraphQLSubscription topic providers were registered for the query: %s",a);return}this.$1[a]=c};a.prototype.getTopicForQuery=function(a,c){var d=this.$1[a]||null;if(d==null)return null;var e=null;try{e=d(c)}catch(c){b("FBLogger")("relay").catching(c).mustfix("TopicProvider for queryID %s threw an unexpected exception",a)}return(d=e)!=null?d:null};e.exports=new a()}),null);

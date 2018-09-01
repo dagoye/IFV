@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["UZupf"]); }
+
+__d("CreatorStudioMultipostActions",["MediaManagerActionTypes","MediaManagerDispatcher"],(function(a,b,c,d,e,f){"use strict";var g=b("MediaManagerActionTypes").MediaManagerActionTypes;a=function(){b("MediaManagerDispatcher").dispatch({type:g.COMPOSER_OPEN_MULTIPOST_PAGE_SELECTOR_TRAY})};c=function(){b("MediaManagerDispatcher").dispatch({type:g.COMPOSER_CLOSE_MULTIPOST_PAGE_SELECTOR_TRAY})};e.exports={openPageSelectorTray:a,closePageSelectorTray:c}}),null);
