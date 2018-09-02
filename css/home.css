@@ -14,16 +14,16 @@
 p{
   font-family: 'Quicksand', sans-serif;
 }
-a{
+a, a:link, a:visited, a:hover{
   color:inherit!important;
   text-decoration:none!important;
   font-family:inherit!important;
 }
-#navbar ul li a{
+/* #navbar ul li a{
   color:inherit!important;
   text-decoration:none!important;
   font-family:inherit!important;
-}
+} */
 
 #landing{
   /* background: url("../img/ifvshoot.jpg"); */
