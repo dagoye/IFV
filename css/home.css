@@ -14,6 +14,11 @@
 p{
   font-family: 'Quicksand', sans-serif;
 }
+a{
+  color:inherit;
+  text-decoration:none;
+  font-family: inherit;
+}
 #landing{
   /* background: url("../img/ifvshoot.jpg"); */
   background-size: cover;
@@ -308,7 +313,7 @@ p{
 .text p{
   margin-bottom: 10px;
   text-align:right;
-  font-size:.8em;
+  font-size:.9em;
 }
 
 /* SECTION: Social Media */

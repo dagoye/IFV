@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["UhMtU"]); }
-
-__d("AdsDataDispatchUtils",[],(function(a,b,c,d,e,f){"use strict";var g=Object.freeze([]);function h(a,b){return a.has(b.provider)?a:a.set(b.provider,b)}e.exports={mergeParameters:function(a,b,c,d){return babelHelpers["extends"]({_dispatchConvention:d},c,{type:a,_dataReducers:b})},getDataReducers:function(a){return a._dataReducers?a._dataReducers:g},mergeReducers:function(a,b){return Array.from(b.reduce(h,a.reduce(h,new Map())).values())},shouldSkipLegacyFluxDispatch:function(a){return a._dispatchConvention==="reducers_only"}}}),null);

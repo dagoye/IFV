@@ -1,0 +1,18 @@
+#header{
+  height:400px;
+  background-size: cover;
+}
+
+/* SECTION: MAIN */
+#main{
+  background: url("../img/film.png");
+  background: url("../img/filmedit.png");
+  /* height: 500px; */
+  background-size: cover;
+}
+
+.mainContent{
+  width: 70%;
+  margin: auto;
+  padding: 50px 0px;
+}
