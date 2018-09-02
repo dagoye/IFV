@@ -4,6 +4,35 @@
   background-position: center;
 }
 
-#main{
-  height:500px;
+.container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.events{
+  margin-bottom:20px;
+}
+.events h1{
+  text-align:center;
+  margin:10px;
+}
+.box.event{
+  height:300px;
+  margin:10px;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+}
+
+.img img{
+  height: 100%;
+  width: 100%;
+}
+
+.text{
+  text-align:center;
 }

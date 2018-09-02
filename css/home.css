@@ -115,6 +115,9 @@ a:-webkit-any-link{
   font-family: 'Quicksand', sans-serif;
   /* font-family: 'Julius Sans One', sans-serif; */
 }
+#navbar .tab:hover{
+  background:rgba(0,0,0,0.8);
+}
 
 #navbar ul li ul li{
   display:none;
