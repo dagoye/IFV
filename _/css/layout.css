@@ -1,0 +1,433 @@
+
+/*********************************************************
+   HTML Elements
+ *********************************************************/
+
+html{
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #000000;
+  font: 400 0.7em verdana, arial, sans-serif;
+  background: url(../images/bg/IFV.jpg) repeat;
+  background-position:center; 
+  min-width: 1100px;
+  color: #fff;
+  height:100%;
+}
+
+
+/* Headers */
+h1, h2, h3, h4{
+  margin: 0 0 0px 0;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.6em;
+  color: #ffffff; 
+}
+
+h2 {
+  font-size: 0.9em;
+  color: #ffffff;
+  font-style:italic;
+}
+
+h3 {
+  font-size: 1.5em;
+  color: #ffffff;
+
+}
+
+h4 {
+  font-size: 1.0em;
+  color: #ffffff;
+
+
+  
+}
+hr {
+    border: 0;
+    width: 100%;
+	color: #f00;
+	background-color: #fff;
+	height: 1px;
+}
+
+
+
+/* Needed to horizontally pad in a coloured container */
+.horzPad h1,
+.horzPad h2,
+.horzPad p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ff9000;
+}
+
+a img {
+  border: 0;
+}
+
+a img.border {  
+  border: 1px solid #000;
+}
+
+a:hover img.border {  
+  /* Fixes IE bug - IE doesn't correctly apply the style on a:hover so need to mask it */
+  border: 1px solid #668FA3 !important;
+  border: 1px solid #FC3307;
+}
+
+
+/* Lists */
+ul li {
+  list-style-image: url(../images/bg/submenu1.gif);
+}
+
+ol li {
+  font-weight: normal;
+  color: #000000;
+}
+
+ol li span {
+  font-weight: normal;
+  color: #444;
+}
+
+
+
+/**************************************************************
+  JQUERY 
+ **************************************************************/
+ 
+#slideshow {
+  width: 977px;
+  height: 378px;
+  margin: 0 auto;
+  top left;
+}
+
+/**************************************************************
+ Container
+ **************************************************************/
+
+
+#container { 
+width:auto;
+margin: 0 auto ;
+min-height:100%;
+}
+
+
+/**************************************************************
+   Top menu and logo
+ **************************************************************/
+
+#header {
+	clear: both;
+	position: relative;
+	height: 3em;
+	margin: 0 auto;
+	border-bottom: 1px solid #fff;
+	background-color: #000;
+	
+}
+
+
+#header img {
+  position: absolute;
+  top: 5%;
+  left: 10px;
+}
+
+#header ul {
+  margin: 1.5em 1em 0 0 !important;
+  margin: 3.5em 0.5em 0 0;
+  padding: 0;
+  float: right;
+}
+
+#header ul li {
+  display: inline;
+  list-style: none;
+}
+
+#header ul li a {
+  float: left;
+  padding: 0 1em;
+  font: 400 1.1em arial, sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 0.8em !important;
+  line-height: 1em;
+  color: #cccccc;
+  border-right: 1px solid #4D5760;
+}
+
+#header ul li a.last {
+  padding-right: 0;
+  border-right: 0;
+}
+
+#header ul li a:hover {
+  color: #ff9000;
+}
+
+
+
+/**************************************************************
+   Header Image/Flash Movie
+ **************************************************************/
+
+#headerImg {
+  margin: 0 auto;
+  height: 143px;
+  background: url(../images/bg/header_image.jpg) no-repeat top left;
+}
+
+
+
+
+
+/**************************************************************
+   Top Block Menu
+ **************************************************************/
+
+#menu {
+  margin: 0 auto;
+  border-top: 0px solid #fff;
+}
+
+#menu ul {
+  width: 100%;
+  float: left;
+  margin: -3px;
+  padding: 1px;
+  text-align: center;
+  background:  url(../images/bg/menu.png) repeat-x top left;
+  text-transform: uppercase;
+}
+
+#menu ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li a {
+  float: left;
+  width: 24.7%;
+  height: 2.0em;
+  font: 400 1.2em arial, sans-serif;
+  letter-spacing: 0.1em;
+  color: ##ff9000;
+  border: 1px solid #FFF;
+
+}
+
+#menu ul li a span {
+  display: block;
+  padding: 7px 7px;
+}
+
+
+#menu ul li a span.desc {
+  font-size: 0.8em;
+  color: #FFFFFF;
+}
+
+
+#menu ul li a:hover,
+#menu ul li a.here {
+  background: #000;
+
+}
+
+#menu ul li a:hover span.desc,
+#menu ul li a.here span.desc {
+  color: #FFF;
+}
+
+
+/**************************************************************
+   Page Content
+ **************************************************************/
+
+#page {
+  clear: both;
+  float: left;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+#columns {
+  margin: 0 auto;
+  min-height: 100%;
+
+}
+
+
+/* Column widths */
+.width {
+  width: 977px;
+}
+
+.widthPad {
+  width: 960px;
+}
+
+.width70 {
+  width: 650px;
+}
+.width25 {
+  width: 300px;
+}
+
+.width100 {
+  width: 100%;
+}
+
+/**************************************************************
+   Footer
+ **************************************************************/
+
+
+#footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  height: 1em;
+  margin-top: -1em;
+  border-top: 1px solid #fff;  
+}
+
+#footer #bg {
+  position: relative;
+  height: 2em;
+  margin: 0 auto;
+  background: #49525B url(../images/bg/footer.gif) repeat-x bottom left;
+}
+
+#footer #bg ul {
+  float: right;
+  margin: 1.0em 1em 0 0 !important;
+  margin: 3em 0.5em 0 0;
+  padding: 0;
+}
+
+#footer #bg ul li {
+  display: inline;
+  list-style: none;
+}
+
+#footer #bg ul li a {
+  float: left;
+  padding: 0 1em;
+  font: 400 1em arial, sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 0.8em !important;
+  line-height: 1em;
+  color: #ccc;
+  border-right: 1px solid #4D5760;
+}
+
+#footer #bg ul li a.last {
+  padding-right: 0;
+  border-right: 0;
+}
+
+#footer #bg ul li a:hover {
+  color: #ff9000;
+}
+
+#footer #bg img {
+  position: absolute;
+}
+
+
+/**************************************************************
+   Generic Display 
+ **************************************************************/
+
+.marginRight {
+  margin-right: 15px;
+}
+
+.paddingLeft {
+  padding-left: 5px;
+}
+
+.paddingRight {
+  padding-right: 5px;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.margin{
+	
+margin-left:75px;
+margin-top: 10px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.alignTop {
+  vertical-align: top;
+}
+
+.alignMiddle {
+  vertical-align: middle;
+}
+
+.alignBottom {
+  vertical-align: bottom;
+}
+
+.bgcolorY {
+  background: #000;
+  border-bottom: 1px solid #ff9000;  
+}
+.bgcolor {
+  background: url(../images/bg/light_body.png) repeat-y center;
+}
+.bgcolorsnow {
+  background: url(../images/bg/light_body2.png) repeat-y center;
+}
+.filmbox {
+	border: 1px solid #ffb10a;	
+	//background: #6e4b00;
+	background: url(../images/bg/filmbox.png) repeat;
+	width: 600px;
+	height: 140px;
+	margin-left: 12px;
+	margin-top:15px;

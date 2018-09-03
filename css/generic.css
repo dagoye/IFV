@@ -9,6 +9,7 @@
   background: url("../img/filmedit.png");
   /* height: 500px; */
   background-size: cover;
+  background-position: top;
 }
 
 .mainContent{
@@ -16,3 +17,7 @@
   margin: auto;
   padding: 50px 0px;
 }
+/*
+html, body, #main{
+  height:100%;
+} */

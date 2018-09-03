@@ -1,0 +1,45 @@
+#header{
+  background: url("../img/ifvshoot.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#main{
+  background:rgba(0,0,0,0.9);
+  overflow:auto;
+}
+.carousel-item iframe{
+  height:500px!important;;
+}
+
+.carousel{
+  width: 80%!important;
+  margin: auto!important;
+  /* padding: 70px 0px!important; */
+}
+.checkOut h3{
+  margin: 40px 10px 10px;
+  text-align: center;
+  padding: 25px;
+}
+.checkOut{
+  border-bottom: 2px dashed;
+  border-top: 2px dashed;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0px 70px;
+  padding: 15px;
+  font-size: 1.5em;
+}
+.checkOut i {
+  margin: 0px 10px;
+  text-align: center;
+  color: #b42020;
+  cursor:pointer;
+}
+
+.checkOut i:hover{
+  color:#000000cc;
+}

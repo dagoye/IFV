@@ -34,5 +34,9 @@
 }
 
 .text{
-  text-align:center;
+  margin-top: 5px;
+  text-align: center;
+  font-size: 1.1em;
+  color: #2e5c8a;
+  color:#304254;
 }
