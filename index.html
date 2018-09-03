@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <title>IFV UIUC | Homepage</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Judson|Julius+Sans+One|Poly|Quicksand|Tenor+Sans|Ultra|Unica+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Black+Ops+One|Judson|Julius+Sans+One|Poly|Quicksand|Tenor+Sans|Ultra|Unica+One" rel="stylesheet">
     <link rel="stylesheet" href="css/home.css">
   </head>
   <body>
+
 
     <!-- Landing Page -->
     <section id="landing">
@@ -16,18 +17,20 @@
         <nav id="navbar">
           <ul>
             <li class="brandName">
-              <i class="fas fa-film" style="margin-right:10px;"></i>IFV
+              <a href="index.html">
+                <i class="fas fa-film" style="margin-right:10px;"></i>IFV
+              </a>
             </li>
-            <li class="active"><a href="ifvhome2.html">Home</a></li>
-            <li><a href="ifvhome2.html#what">About</a></li>
-            <li>Portfolio
+            <li class="tab active"><a href="index.html">Home</a></li>
+            <li class="tab"><a href="index.html#what">About</a></li>
+            <li class="tab">Portfolio
               <ul>
-                <li><a href="projects.html">Current Projects</a></li>
-                <li><a href="pastwork.html">Past Work</a></li>
+                <li class="tab"><a href="projects.html">Current Projects</a></li>
+                <li class="tab"><a href="pastwork.html">Past Work</a></li>
               </ul>
             </li>
-            <li><a href="events.html">Events</a></li>
-            <li><a href="equipment.html">Equipment</a></li>
+            <li class="tab"><a href="events.html">Events</a></li>
+            <li class="tab"><a href="equipment.html">Equipment</a></li>
             <li style="padding: 0px;margin: 0px 35px 0px 15px;"><button type="button" id="involveButton" name="button">Get Involved</button></li>
           </ul>
         </nav>
@@ -91,10 +94,6 @@
   </div>
 </section>
 
-<!--Social Media -->
-<section id="social">
-
-</section>
 <!-- Meet the Board -->
 <section id="who">
     <div class="board">
@@ -146,10 +145,11 @@
               <img src="img/alex.jpg" alt="">
             </div>
             <div class="text">
-              <p>Year/Major: Marketing and IS/IT</p>
-              <p>Dream Job: Fashion Designer</p>
-              <p>Favorite Movie: The Three Little Bears</p>
-              <p>Best Part About IFV: Family</p>
+              <p>Year/Major: Junior in Accountancy and Supply Chain Management</p>
+              <p>Dream Job: Something where I can make enough $ to fund
+              passion projects (i.e. films) and travel the world in a custom camper van</p>
+              <p>Favorite Movie: Closet Monster</p>
+              <p>Best Part About IFV: Working on the film projects</p>
             </div>
           </div>
           <hr>
@@ -183,7 +183,7 @@
             </div>
             <div class="text">
               <p>Year/Major: Senior in Economics and Media & Cinema Studies</p>
-              <p>Dream Job: Major Creative Member on Audiovisual Productions</p>
+              <p>Dream Job: Major Creative Member on an audiovisual productions team</p>
               <p>Favorite Movie: Call Me By Your Name</p>
               <p>Best Part About IFV: Having access to all sorts of resources for making movies</p>
             </div>
@@ -200,10 +200,10 @@
               <img src="img/john.jpg" alt="">
             </div>
             <div class="text">
-              <p>Year/Major: Marketing and IS/IT</p>
-              <p>Dream Job: Fashion Designer</p>
-              <p>Favorite Movie: The Three Little Bears</p>
-              <p>Best Part About IFV: Family</p>
+              <p>Year/Major: Grad Student in Electrical Engineering (21st Grade)</p>
+              <p>Dream Job: CEO of an engineering startup</p>
+              <p>Favorite Movie: Amadeus</p>
+              <p>Best Part About IFV: Opportunity to learn from skilled folk and to "talk film"</p>
             </div>
           </div>
           <hr>
@@ -218,10 +218,10 @@
               <img src="img/zhi.jpg" alt="">
             </div>
             <div class="text">
-              <p>Year/Major: Marketing and IS/IT</p>
-              <p>Dream Job: Fashion Designer</p>
-              <p>Favorite Movie: The Three Little Bears</p>
-              <p>Best Part About IFV: Family</p>
+              <p>Year/Major: Junior in Advertising</p>
+              <p>Dream Job: Storyteller/Filmmaker</p>
+              <p>Favorite Movie: A Girl Walks Home Alone At Night</p>
+              <p>Best Part About IFV: A supportive and inspiring family!</p>
             </div>
           </div>
           <hr>
@@ -236,8 +236,8 @@
               <img src="img/deborah.jpg" alt="">
             </div>
             <div class="text">
-              <p>Year/Major: Supply Chain Management</p>
-              <p>Dream Job: CEO for a Startup or Non-profit</p>
+              <p>Year/Major: Junior in Supply Chain Management</p>
+              <p>Dream Job: CEO for a startup or non-profit</p>
               <p>Favorite Movie: 13 Going on 30</p>
               <p>Best Part About IFV: The finished product</p>
             </div>
@@ -248,19 +248,59 @@
   </div>
 </section>
 
+<!-- SECTION: PITCH -->
+<section id="pitch">
+  <div class="pitch">
+    <h1>Have an Idea? Pitch It to Us !</h1>
+    <!--  https://www.youtube.com/embed/Pvp0bqWgHHE?autoplay=1-->
+    <iframe width="600" height="315" style="margin-right:100px;" src="https://www.youtube.com/embed/Pvp0bqWgHHE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="contactUs">
+    <h1 style="color: #ab561f;color: #2368a0f2;color:#bd6200;text-shadow: 2px 0px 2px black;font-size: 2em;">Contact IFV</h1>
+    <p>illinifilmandvideo@gmail.com</p>
+
+    <h3 style="font-size: 1.4em;color: rgb(144, 125, 125);border: 2px dashed;padding: 5px;width: 60%;margin: 40px auto 20px;">Follow Us on Social Media</h3>
+    <div class="socialmediaBar">
+      <a href="https://www.facebook.com/illinifilmandvideo/"><i style="color:#1c62a6f5;" class="fab fa-facebook-square"></i></a>
+      <a href="https://www.instagram.com/ifvuiuc/"><i style="color:#ab561f;"class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/user/IlliniFilmandVideo"><i style="color:#d91c12f2;" class="fab fa-youtube"></i></a>
+      <a href="mailto:illinifilmandvideo@gmail.com" style="color:#ffffff85!important;"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+</section>
 
 
-        <footer>
-    <!--with social media  -->
 
-      Follow us on Social Media!
-      <div class="socialmedia grid">
+        <footer style="display: flex;justify-content: center;align-items: center;">
+          <!--with social media  -->
+          <!-- Follow us on Social Media! -->
 
-      </div>
+          <div class="socialmediaBar" style="padding: 30px 0px 20px;margin:0px;display:none;">
+            <a href="https://www.facebook.com/illinifilmandvideo/"><i style="color:#1c62a6f5;" class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/ifvuiuc/"><i style="color:#ab561f;"class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/user/IlliniFilmandVideo"><i style="color:#d91c12f2;" class="fab fa-youtube"></i></a>
+            <a href="mailto:illinifilmandvideo@gmail.com" style="color:#ffffff85!important;"><i class="fas fa-envelope"></i></a>
+          </div>
+
+          <!-- <div style="padding:60px;"> -->
+
+          <div class="">
+            © 2018 | illinifilmandvideo.com | All rights reserved | Monday at 7:00pm Location TBD
+          </div>
         </footer>
+
       </body>
     </html>
-
-
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/scroll.js">
+      $('a').smoothScroll();
+    </script>
+    <!-- <script type="text/javascript">
+      $('a').smoothScroll();
+    </script> -->
   </body>
 </html>
